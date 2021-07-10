@@ -13,22 +13,25 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   <title>Easybank | Home</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#">
+  <header class="header">
+    <div class="overlay has-fade"></div>
+    <nav class="container container--pill flex flex-jc-sb flex-ai-c">
+      <a href="#" class="header__logo">
         <img src="./image/logo.svg" alt="Easybank Logo" />
       </a>
 
-      <a href="#">
+      <a href="#" id="btn-hamburguer" class="header__toggle hide-for-desktop">
         <span></span>
         <span></span>
         <span></span>
       </a>
 
-      <ul>
+      <ul class="header__links hide-for-mobile">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
@@ -36,9 +39,9 @@
         <li><a href="#">Careers</a></li>
       </ul>
       
-      <a href="#">Request Invite</a>
+      <a href="#" class="button header__cta hide-for-mobile">Request Invite</a>
 
-      <div>
+      <div class="header__menu">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
@@ -56,7 +59,7 @@
             <p>
               Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.
             </p>
-            <a href="#">Request Invite</a>
+            <a href="#" class="button hero__cta">Request Invite</a>
           </div>
       </article>
     </section>
@@ -230,7 +233,7 @@
       </div>
 
       <div class="footer__btn">
-        <a href="#">Request Invite</a>
+        <a href="#" class="button">Request Invite</a>
       </div>
 
       <div class="footer__copyright">

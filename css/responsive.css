@@ -1,0 +1,24 @@
+@media (min-width: 64em) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
